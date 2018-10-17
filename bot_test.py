@@ -5,8 +5,7 @@ bot = commands.Bot(command_prefix=prefix)
 
 
 @bot.event
-@ascyncio.coroutine
-def on_ready():
+async def on_ready():
     print("Everything's all ready to go~")
 
 
