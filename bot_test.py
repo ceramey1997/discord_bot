@@ -31,4 +31,4 @@ async def echo(ctx, *, content:str):
     await ctx.send(content)
 
 
-bot.run(TOKEN)
+bot.run("NTAxOTU0NTQ0MTA4OTYxNzky.DqlTAw.7I0m33Bjnqk97OKRBRJlh4JVQ7s")
