@@ -16,8 +16,7 @@ def on_message(message):
 
 
 @bot.command()
-@ascyncio.coroutine
-def ping(ctx):
+async def ping(ctx):
     '''
     This text will be shown in the help command
     '''
@@ -28,8 +27,7 @@ def ping(ctx):
     await ctx.send(latency)
 
 @bot.command()
-@ascyncio.coroutine
-def echo(ctx, *, content:str):
+async def echo(ctx, *, content:str):
     await ctx.send(content)
 
 
